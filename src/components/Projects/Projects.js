@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import ecommerceo from "../../Assets/Projects/Screenshot 2023-07-23 175510.png";
+import youtubeClone from "../../Assets/Projects/Screenshot 2023-08-01 041553.png";
 import cars from "../../Assets/Projects/cars.png";
 import crud from "../../Assets/Projects/crud.png"
 import passwordGenerator from "../../Assets/Projects/Screenshot 2023-07-24 125119.png"
@@ -27,6 +28,17 @@ function Projects() {
               description="Ecommerce app built with react.js, Primereact, and Redux toolkit."
               ghLink="https://github.com/Moustafa-Bahaa/ecommerceo-frontend"
               demoLink="https://commerceo-frontend.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={youtubeClone}
+              isBlog={false}
+              title="Youtube-clone"
+              description="youtube clone is a web application built with react , material ui , axios , rapid api to simulate the real youtube app"
+              ghLink="https://github.com/Moustafa-Bahaa/youtube-clone"
+              demoLink="https://youtube-clone-tan-tau.vercel.app/"
             />
           </Col>
 
